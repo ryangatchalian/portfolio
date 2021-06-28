@@ -16,6 +16,9 @@ code {
   margin: 20px;
 }
 
+* {
+  caret-color: transparent;
+}
 
 .rg-card-image {
   border-radius: 10px;
@@ -61,16 +64,5 @@ code {
 }
 
 .dl-button {
-  border: none;
-  color: brown;
-  align-items: center;
-}
-
-.dl-button:hover {
-  background-color: blue; /* Green */
-  color: blue;
-}
-
-.a {
   border: none;
 }
