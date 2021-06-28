@@ -3,6 +3,7 @@ import React from 'react';
 import Card from '../components/Card';
 import gohort from '../assets/images/gohort.png';
 import headshot from '../assets/images/headshot.png';
+import twitch from '../assets/images/twitch.png';
 import { Container, Row } from 'react-bootstrap';
 
 class Carousel extends React.Component {
@@ -22,19 +23,19 @@ class Carousel extends React.Component {
                 {
                     id: 1,
                     title: 'Ryan Gatchalian',
-                    subTitle: 'Thats my name',
+                    subTitle: 'More about me!',
                     imgSrc: headshot,
-                    link: 'https://www.google.com',
+                    link: '/about',
                     selected: false
                 },
-                // {
-                //     id: 2,
-                //     title: 'Everest',
-                //     subTitle: 'A social network for developers',
-                //     imgSrc: evverest,
-                //     link: 'https://google.com',
-                //     selected: false
-                // },
+                {
+                    id: 2,
+                    title: 'TwitchBreakoutGames',
+                    subTitle: 'An API to see the "breakout games" of Twitch.',
+                    imgSrc: twitch,
+                    link: 'https://github.com/ryangatchalian/TwitchBreakoutGames',
+                    selected: false
+                },
             ]
 
         }

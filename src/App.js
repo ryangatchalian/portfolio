@@ -23,7 +23,7 @@ class App extends React.Component {
       ],
       home: {
         subTitle: 'Thanks for stopping by! ',
-        text: 'Checkout my projects below'
+        text: 'Check out some of my projects below:'
       },
       about: {
         title: 'More about me...'
@@ -37,7 +37,6 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
 
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            {/* <Navbar.Brand>Ryan Anthony Gatchalian</Navbar.Brand> */}
             <h1 className="navbar-brand">
               <span style={{ color: "#235789" }}>Ryan Anthony</span> Gatchalian
             </h1>
