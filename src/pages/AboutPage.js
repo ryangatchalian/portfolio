@@ -24,7 +24,7 @@ function AboutPage(props) {
                     this team helps me practice my skills and share my knowledge with other team members.
                 </p>
                 <p>
-                    Now I'm looking for my first full-time role as a Software Engineer!
+                    Now I'm looking for my first full-time role as a Software Engineer! Feel free to reach out to me. Let's talk!
                 </p>       
                 <br></br>
             </Content>
